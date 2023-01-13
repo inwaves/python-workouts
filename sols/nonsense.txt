@@ -1,0 +1,5 @@
+moreover there
+are times when
+a simple for loop
+as we used with the
+Pig Latin examples won't work
