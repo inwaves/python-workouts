@@ -1,0 +1,1 @@
+[{"user": "nobody", "password": "*", "user_id": "-2", "group_id": "-2", "user_id_info": "", "home_directory": "0", "shell": "0"}, {"user": "root", "password": "*", "user_id": "0", "group_id": "0", "user_id_info": "", "home_directory": "0", "shell": "0"}, {"user": "daemon", "password": "*", "user_id": "1", "group_id": "1", "user_id_info": "", "home_directory": "0", "shell": "0"}]

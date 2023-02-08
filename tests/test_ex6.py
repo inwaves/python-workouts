@@ -9,4 +9,4 @@ def test_transpose_strings() -> None:
 
 
 def test_nonsensical_read() -> None:
-    assert nonsensical_read("../sols/nonsense.txt") == "moreover times for with work"
+    assert nonsensical_read("data/nonsense.txt") == "moreover times for with work"

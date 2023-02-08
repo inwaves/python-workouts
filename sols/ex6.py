@@ -1,7 +1,8 @@
 from sols.ex5 import pig_latin_simple
+import os
 
 def pl_sentence(in_str: str) -> str:
-    return " ".join(pig_latin_simple(word) for word in in_str.split(" "))
+    return " ".join(pig_latin_simple(word) for word in in_str.split(" ") if len(word) > 0)
 
 
 def transpose_strings(in_list: list) -> list:
@@ -12,6 +13,7 @@ def transpose_strings(in_list: list) -> list:
 
 def nonsensical_read(filepath: str) -> str:
     words = []
+    print(os.getcwd())
     with open(filepath, "r", encoding="utf-8") as file_stream:
         for i in range(5):
             words += [next(file_stream).split(" ")[i]]

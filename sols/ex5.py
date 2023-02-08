@@ -1,5 +1,6 @@
 def pig_latin_simple(in_str: str) -> str:
-    print(f"{in_str}")
+    if len(in_str) == 0:
+        return ""
 
     if in_str[0] in "aeiou":
         return f"{in_str}way"
